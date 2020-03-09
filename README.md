@@ -7,9 +7,30 @@
 
 ## 配置相关 
 
-![打开后台运行]()
-![rdb持久化方式]()
-![aof持久化方式]()
+**打开后台运行**
+
+![打开后台运行](img/daemon.png)
+
+**数据库个数**
+
+![数据库个数](img/dbcount.png)
+
+**密码**
+
+![密码](img/passwd.png)
+
+**最大客户数**
+
+![maxclients](img/maxclients.png)
+
+**rdb持久化**
+
+![rdb](img/rdb.png)
+
+**aof持久化**
+
+![aof](img/aof.png)
+
 
 ## 基本数据结构
 
@@ -20,10 +41,13 @@ set hash set
 ## 重点关注
 
 * [pipeline]()
-[lua script]()
+* [lua script]()
 
 ## 一些例子
 
-* [车辆在线]()
-* [控制访问]()
+* [播放控制访问](example/play.md)
+
+* [短信注册](example/sms.md)
+
+* [车辆在线](example/online.md)
 
