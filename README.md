@@ -46,8 +46,6 @@ set hash set
 ## 一些例子
 
 * [播放控制访问](example/play.md)
-
 * [短信注册](example/sms.md)
-
 * [车辆在线](example/online.md)
 
